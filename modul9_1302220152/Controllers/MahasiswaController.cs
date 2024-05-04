@@ -36,12 +36,6 @@ namespace modul9_1302220152.Controllers
         [HttpPost]
         public void Post([FromBody] Mahasiswa value)
         {
-           // Console.WriteLine(value);
-           // var options = new JsonSerializerOptions
-            //{
-            //    IncludeFields = true,
-//};
-            //var mahasiswa = JsonSerializer.Deserialize<Mahasiswa>(value, options);
             ListMahasiswa.Add(value);
         }
 
